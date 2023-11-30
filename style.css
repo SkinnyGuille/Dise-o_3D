@@ -1,0 +1,195 @@
+/* Estilo para el cuerpo de la página */
+body {
+    background-size: cover;
+    background-position: center;
+  background-color:rgb(147, 145, 145);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Estilo para el encabezado */
+.header {
+   top: 0%;
+    background-color: #1e57997a;
+    padding: 7px;
+    text-align: center;
+}
+.menu-logo {
+    display: flex;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 1100;
+   
+    width: 90px;
+    margin: 10px;
+}
+
+.contenedorlogo {
+    margin-bottom: 20px;
+}
+
+.nombredellogo {
+    font-size: 36px;
+    margin: 0;
+    color: white;
+}
+
+/* Estilo para la barra de navegación */
+.barra {
+    text-align: center;
+}
+
+.barra a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+/* Estilo para los títulos */
+h1, h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+
+}
+
+/* Estilo para los párrafos */
+p {
+    background-color: #3f3f3f5e;
+    font-size: 30px;
+    text-align: center;
+    justify-content:left;
+    margin: 30px;
+    color:white;
+    text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+
+}
+
+/* Estilo para las imágenes */
+img {
+    display: block;
+    margin:  auto;
+}
+.barra{
+    
+    padding: 0;
+    background-color: rgb(9, 77, 116);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.barra a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+}
+.barra a:hover{
+    background-color: rgba(200, 137, 10, 0.649);
+}
+h3 {
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+}
+a{
+ 
+  background-color: #6363635e;
+  font-size: 30px;
+  text-align: center;
+  justify-content:left;
+  margin: 30px;
+  color:white;
+  text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+
+
+}
+/*carrucel*/
+.article-carrusel{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 50px;
+    margin-bottom: 600px;
+  }
+  .article-carrusel__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #foto-carrusel{
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    min-height: 400px;
+  }
+  .article-carrusel__div button{
+    margin: 20px;
+    border: none;
+    background: transparent;
+  }
+  .article-carrusel__div button img{
+    width: 50px;
+  }
+  .article-carrusel__div button img:hover{
+    border: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px #000;
+  }
+ 
+
+h4{
+    text-decoration: underline;
+    font-size: 50px;
+    text-align: left;
+    color: rgb(243, 243, 243);
+    text-shadow: 5px 0px 5px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+  
+  }
+#datos-ingresados{
+  border: 1px solid #2b2b2b9f;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(243, 243, 243);
+  text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+}
+  .huevo{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("p.png");
+    height: 120vh;
+  }
+.contactos{
+background-image: url("b11.jpg");
+
+}
+section{
+   
+    display: flex;
+    width: 900px;
+    height: 500px;
+
+}
+section img{
+    width: 0px;
+    flex-grow: 10;
+    object-fit: cover;
+    transition: .5s ease;
+
+
+}
+section img:hover{
+    cursor: crosshair;
+    width: 100px;
+    filter:  contrast(120%);
+}
