@@ -1,4 +1,4 @@
-var imagenes = ["d1.jpg","d3.jpg","d5.jpg","d6.jpg","d7.jpg"];
+var imagenes = ["d1.jpg","d3.jpg","d5.jpg","d6.jpg","d7.jpg","dd2.jpg","s2.jpg","d13.jpg","a3.jpg","a4.jpg"];
 var cont = 0;
 
 function imgAnt () {
